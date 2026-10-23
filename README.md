@@ -102,9 +102,7 @@ Final KPI definitions and formulas depend on the available dataset and the busin
 
 ## Instructor
 
-**Instructor:** To be confirmed.
-
-The instructor's name was not available in the existing repository files, so no name has been added without verification.
+**Instructor:** Eng. Mohamed Assem
 
 ## Tools & Technologies
 
