@@ -1,5 +1,7 @@
 # Real Estate Lead-to-Sale Analysis
 
+> A real estate data analytics graduation project focused on lead-to-sale conversion, sales funnel performance, lead source effectiveness, and data-driven business insights.
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -31,7 +33,7 @@ The findings may help the team understand where leads are most frequently lost, 
 
 ## Business Questions
 
-The following are planned analytical questions. They have not been answered yet because the dataset and analysis are still being prepared.
+The following are **planned analytical questions**. They have not been answered yet because the dataset and analysis are still being prepared.
 
 - What is the overall lead-to-sale conversion rate?
 - At which stages are leads most frequently lost?
@@ -43,60 +45,66 @@ The following are planned analytical questions. They have not been answered yet 
 
 ## Team Members
 
-- Eslam Mohamed Saleh
-- Abdelrahman Nasser Gouda
-- Basmala Amir
-- Mohamed Ashraf
-- Habiba Khaled
-- Abdelrahman Mohamed Ahmed Ali
+| # | Team Member |
+|---:|---|
+| 1 | Eslam Mohamed Saleh |
+| 2 | Abdelrahman Nasser Gouda |
+| 3 | Basmala Amir |
+| 4 | Mohamed Ashraf |
+| 5 | Habiba Khaled |
+| 6 | Abdelrahman Mohamed Ahmed Ali |
 
 ## Work Plan
 
-The project is planned to progress through the following phases:
+The project is planned to progress through the following phases. All phases are currently unverified and therefore marked **Planned / Not Started**.
 
-1. Business Understanding and Research
-2. Dataset Review and Data Quality Assessment
-3. Data Cleaning and Preparation
-4. Exploratory Data Analysis (EDA)
-5. Data Modeling and Relationship Design, if applicable
-6. KPI Development and DAX Measures
-7. Power BI Dashboard Development
-8. Insights and Business Recommendations
-9. Documentation and Final Presentation
+| Phase | Planned Activity | Status |
+|---:|---|---|
+| 1 | Business Understanding and Research | Planned / Not Started |
+| 2 | Dataset Review and Data Quality Assessment | Planned / Not Started |
+| 3 | Data Cleaning and Preparation | Planned / Not Started |
+| 4 | Exploratory Data Analysis (EDA) | Planned / Not Started |
+| 5 | Data Modeling and Relationship Design, if applicable | Planned / Not Started |
+| 6 | KPI Development and DAX Measures | Planned / Not Started |
+| 7 | Power BI Dashboard Development | Planned / Not Started |
+| 8 | Insights and Business Recommendations | Planned / Not Started |
+| 9 | Documentation and Final Presentation | Planned / Not Started |
 
-These phases describe the planned workflow and do not indicate that any phase has been completed.
+These statuses describe the current documentation state and do not indicate that any phase has been completed.
 
 ## Roles & Responsibilities
 
 ### Proposed Team Responsibility Plan
 
-No approved task assignments or responsibility plan were found in the existing repository. The following allocation is therefore **proposed for team review and approval** and can be updated as the project progresses.
+No approved task assignments or responsibility plan were found in the existing repository. The allocation below is therefore **proposed for team review and approval** and can be updated as the project progresses.
 
-| Team Member | Proposed Workstream |
-|---|---|
-| Eslam Mohamed Saleh | Project coordination and business understanding |
-| Abdelrahman Nasser Gouda | Dataset review, data quality assessment, and data preparation |
-| Basmala Amir | Exploratory data analysis and lead-funnel analysis |
-| Mohamed Ashraf | Data modeling, KPI definitions, and DAX measures |
-| Habiba Khaled | Power BI dashboard development and visual design |
-| Abdelrahman Mohamed Ahmed Ali | Insights, recommendations, documentation, and final presentation |
+| Team Member | Proposed Workstream | Assignment Status |
+|---|---|---|
+| Eslam Mohamed Saleh | Project coordination and business understanding | Proposed — pending team approval |
+| Abdelrahman Nasser Gouda | Dataset review, data quality assessment, and data preparation | Proposed — pending team approval |
+| Basmala Amir | Exploratory data analysis and lead-funnel analysis | Proposed — pending team approval |
+| Mohamed Ashraf | Data modeling, KPI definitions, and DAX measures | Proposed — pending team approval |
+| Habiba Khaled | Power BI dashboard development and visual design | Proposed — pending team approval |
+| Abdelrahman Mohamed Ahmed Ali | Insights, recommendations, documentation, and final presentation | Proposed — pending team approval |
 
-These assignments are proposals only and require team approval before being treated as the official responsibility plan.
+These assignments are proposals only and must not be treated as the official responsibility plan until the team approves them.
 
 ## Planned KPIs
 
 The following indicators are planned. Actual values will be calculated only after the dataset, field definitions, and business rules have been confirmed.
 
-1. **Total Leads:** The total number of valid leads included in the analysis.
-2. **Converted Leads:** The number of valid leads that resulted in a successful conversion or property sale.
-3. **Lost Leads:** The number of valid leads that did not result in a successful conversion, according to the agreed status rules.
-4. **Lead-to-Sale Conversion Rate:** `Converted Leads / Total Leads × 100`.
-5. **Lead Loss Rate:** `Lost Leads / Total Leads × 100`.
-6. **Conversion Rate by Lead Source:** Converted leads from a source divided by total leads from that source, multiplied by 100.
-7. **Conversion Rate by Sales Agent:** Converted leads managed by an agent divided by total leads managed by that agent, multiplied by 100.
-8. **Average Time to Conversion:** The average number of days from the lead creation date to the successful conversion or sale date, calculated using valid dates and converted leads only.
-9. **Sales Performance by Property Type:** A comparison of sales and/or conversion performance across property types.
-10. **Sales Performance by Location:** A comparison of sales and/or conversion performance across locations.
+| # | KPI | Definition / Formula |
+|---:|---|---|
+| 1 | **Total Leads** | Total number of valid leads included in the analysis. |
+| 2 | **Converted Leads** | Number of valid leads that resulted in a successful conversion or property sale. |
+| 3 | **Lost Leads** | Number of valid leads that did not result in a successful conversion, according to the agreed status rules. |
+| 4 | **Lead-to-Sale Conversion Rate** | `Converted Leads / Total Leads × 100` |
+| 5 | **Lead Loss Rate** | `Lost Leads / Total Leads × 100` |
+| 6 | **Conversion Rate by Lead Source** | Converted leads from a source divided by total leads from that source, multiplied by 100. |
+| 7 | **Conversion Rate by Sales Agent** | Converted leads managed by an agent divided by total leads managed by that agent, multiplied by 100. |
+| 8 | **Average Time to Conversion** | Average number of days from the lead creation date to the successful conversion or sale date, using valid dates and converted leads only. |
+| 9 | **Sales Performance by Property Type** | Comparison of sales and/or conversion performance across property types. |
+| 10 | **Sales Performance by Location** | Comparison of sales and/or conversion performance across locations. |
 
 Final KPI definitions and formulas depend on the available dataset and the business rules agreed upon by the project team. Planned measures must not be presented as calculated results before the analysis is completed.
 
@@ -108,25 +116,27 @@ Final KPI definitions and formulas depend on the available dataset and the busin
 
 ### Planned Tools
 
-- Microsoft Excel for initial data review and preparation, if applicable
-- Power Query for data transformation and cleaning, if applicable
-- Microsoft Power BI for dashboard development, if applicable
-- DAX for KPI and measure development, if applicable
+| Tool / Technology | Intended Use | Status |
+|---|---|---|
+| Microsoft Excel | Initial data review and preparation, if applicable | Planned |
+| Power Query | Data transformation and cleaning, if applicable | Planned |
+| Microsoft Power BI | Dashboard development, if applicable | Planned |
+| DAX | KPI and measure development, if applicable | Planned |
 
-The repository currently does not contain documentation confirming completed use of these tools. The list will be updated as the project work progresses.
+The repository currently does not contain documentation confirming completed use of these tools. This section will be updated as the project work progresses.
 
 ## Project Files and Resources
 
-| Resource | Status |
-|---|---|
-| README documentation | Available: this file |
-| Dataset | Planned / Not Available Yet |
-| Data Dictionary | Planned / Not Available Yet |
-| Data Cleaning and Analysis Files | Planned / Not Available Yet |
-| Power BI Dashboard | Planned / Not Available Yet |
-| Final Presentation | Planned / Not Available Yet |
-| Supporting Documentation | Planned / Not Available Yet |
-| External Project Resources | No verified external links available yet |
+| Resource | Status | Link / Notes |
+|---|---|---|
+| README documentation | Available | This file |
+| Dataset | Planned / Not Available Yet | No dataset file is currently present in the repository. |
+| Data Dictionary | Planned / Not Available Yet | Not currently available in the repository. |
+| Data Cleaning and Analysis Files | Planned / Not Available Yet | Not currently available in the repository. |
+| Power BI Dashboard | Planned / Not Available Yet | Not currently available in the repository. |
+| Final Presentation | Planned / Not Available Yet | Not currently available in the repository. |
+| Supporting Documentation | Planned / Not Available Yet | Not currently available in the repository. |
+| External Project Resources | Planned / Not Available Yet | No verified external links are currently available. |
 
 Only resources that currently exist in the repository or have a verified URL will be linked here. No placeholder or fabricated links have been added.
 
